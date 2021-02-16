@@ -5,14 +5,18 @@ html {
 .card {
     width: 200px;
     height: 200px;
-    
 }
 
 .brand-logo {
     margin: 5px;
 }
 
+#biography:hover {
+    border 
+}
+
 img {
     width: 200px;
     height: 300px;
 }
+
