@@ -24,6 +24,7 @@ img {
 #below { 
     position: relative;
     top: 100px;
+    list-style-type: none;
 }
 
 @media screen and (max-width: 1000px) {
