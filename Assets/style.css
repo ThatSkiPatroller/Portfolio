@@ -20,6 +20,12 @@ img {
     height: 300px;
 }
 
+/* .collection-item, .li, .ul, */
+#below { 
+    position: relative;
+    top: 100px;
+}
+
 @media screen and (max-width: 1000px) {
     .card {
         display: flex;
