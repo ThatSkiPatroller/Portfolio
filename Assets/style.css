@@ -20,3 +20,9 @@ img {
     height: 300px;
 }
 
+@media screen and (max-width: 1000px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+}
