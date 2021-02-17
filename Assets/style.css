@@ -29,6 +29,14 @@ img {
     list-style-type: none;
 }
 
+embed {
+    margin-top: 110px;
+    margin-left:24%;
+    justify-content: center;
+    width: 50%;
+    height: 600px;
+}
+
 /* @media screen and (max-width: 1000px) {
     .card {
         display: flex;
