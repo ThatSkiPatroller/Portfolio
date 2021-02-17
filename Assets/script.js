@@ -39,4 +39,13 @@ document.getElementById("biography").addEventListener("click", function () {
     }
 });
 
-
+document.getElementById("resume").addEventListener("click", function () {
+    var element = document.createElement("div");
+    element.classList.add("container");
+    var element2 = document.createElement("embed");
+    element2.src = 'https://thatskipatroller.github.io/ThatSkiPatroller.github.io-Portfolio/Files/resume.pdf';
+    element2.type = 'application/pdf';
+    element2.style = 'width=100% , height=600px';
+    document.body.appendChild(element);
+    document.body.appendChild(element2);
+})
