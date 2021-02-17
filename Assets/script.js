@@ -1,6 +1,6 @@
 // Create elements that display bio upon user clicking Biography picture
 document.getElementById("contact").addEventListener("click", function () {
-    window.location.pathname = "C:/Users/Trace/codeWork/ThatSkiPatroller.github.io-Portfolio/Develop/Contact.html";
+    window.location.pathname = "Develop/Contact.html";
 });
 
 // document.getElementById("biography").addEventListener("click", function () {
