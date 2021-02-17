@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems, options);
+  });
+
 // Create elements that display bio upon user clicking Biography picture
 document.getElementById("contact").addEventListener("click", function () {
     window.location.href = "https://thatskipatroller.github.io/ThatSkiPatroller.github.io-Portfolio/Develop/Contact.html";
@@ -52,4 +57,8 @@ document.getElementById("resume").addEventListener("click", function () {
     } else {
     
     };
-})
+});
+
+document.getElementById("projects").addEventListener("click", function () {
+    window.location.href = "https://thatskipatroller.github.io/ThatSkiPatroller.github.io-Portfolio/Develop/Projects.html"
+});
