@@ -35,16 +35,21 @@ document.getElementById("biography").addEventListener("click", function () {
         document.getElementById("below").appendChild(bio);
         document.getElementById("below").appendChild(list);
     } else {
-        console.log("else");
+     
     }
 });
 
 document.getElementById("resume").addEventListener("click", function () {
     var element = document.createElement("div");
-    element.classList.add("container");
-    var element2 = document.createElement("embed");
-    element2.src = 'https://thatskipatroller.github.io/ThatSkiPatroller.github.io-Portfolio/Files/resume.pdf';
-    element2.type = 'application/pdf';
-    document.body.appendChild(element);
-    document.body.appendChild(element2);
+   if (document.body.children.length == 3) { 
+        console.log(element.children.length);
+        element.classList.add("container");
+        var element2 = document.createElement("embed");
+        element2.src = 'https://thatskipatroller.github.io/ThatSkiPatroller.github.io-Portfolio/Files/resume.pdf';
+        element2.type = 'application/pdf';
+        document.body.appendChild(element);
+        document.body.appendChild(element2);
+    } else {
+    
+    };
 })
