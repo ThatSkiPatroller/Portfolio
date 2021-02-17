@@ -6,3 +6,21 @@ h1 {
     font-size: 40px;
 }
 
+.collection {
+    color: violet;
+    background-color: violet;
+  
+}
+
+.btn {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.fas {
+
+}
+
+.collection-item :hover {
+    
+}
