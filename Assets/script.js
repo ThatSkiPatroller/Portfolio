@@ -1,7 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.modal');
-    var instances = M.Modal.init(elems, options);
-  });
 
 // Create elements that display bio upon user clicking Biography picture
 document.getElementById("contact").addEventListener("click", function () {
