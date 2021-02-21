@@ -5,3 +5,7 @@ document.getElementById("project1").addEventListener("click", function () {
 document.getElementById("scheduler").addEventListener("click", function () {
     window.location.href = "https://thatskipatroller.github.io/ThatSkiPatroller.github.io-Day-Planner/";
 });
+
+document.getElementById("btn").addEventListener("click", function () {
+    window.location.href = "https://thatskipatroller.github.io/ThatSkiPatroller.github.io-Portfolio/";
+});
