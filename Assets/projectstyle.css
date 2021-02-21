@@ -14,6 +14,10 @@ img {
     height: 300px;
 }
 
+.card-title {
+    color: black !important;
+}
+
 .btn {
     margin-top: 20px;
     margin-left: 20px;
