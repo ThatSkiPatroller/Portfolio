@@ -9,7 +9,9 @@ h1 {
 .collection {
     color: violet;
     background-color: violet;
-    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .btn {
