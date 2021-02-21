@@ -24,6 +24,12 @@ embed {
     
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .card-title {
     font-weight: 900 !important;
     font-size: 35px;
