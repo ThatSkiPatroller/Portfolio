@@ -9,7 +9,7 @@ h1 {
 .collection {
     color: violet;
     background-color: violet;
-  
+    margin-bottom: 15px;
 }
 
 .btn {
@@ -17,6 +17,4 @@ h1 {
     margin-left: 20px;
 }
 
-a {
-    margin-bottom: 20px;
-}
+
