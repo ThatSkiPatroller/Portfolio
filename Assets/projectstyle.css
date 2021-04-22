@@ -2,20 +2,15 @@ html {
     font-family: 'Spartan', sans-serif;
 }
 
-.card {
+/* .card {
     display: flex;
     flex-wrap: wrap;
     width: 200px;
     height: 200px;
-}
+} */
 
 img {
-    width: 200px;
-    height: 300px;
-}
-
-.card-title {
-    color: black !important;
+    height: 224.33px;
 }
 
 .btn {
@@ -24,6 +19,3 @@ img {
     margin-bottom: 20px;
 }
 
-.makethisblack {
-    color: black;
-}
